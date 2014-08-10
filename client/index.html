@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- DEV -->
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="css/prism.css"  />
+        <link rel="stylesheet" href="css/style.css" type="text/css"/> 
+        <!-- PROD -->
+        <!-- <link rel="stylesheet" href="css/app.min.css" type="text/css"/> -->
+        <title>JAR Decompiler</title>
+    </head>
+    <body>
+        <form role="form" id="uploadForm" class="form-inline" name="uploadForm" action="upload" method="post" enctype="multipart/form-data">
+        </form>
+        <div id="tree"></div>
+        <pre id="source" class="line-numbers"><code class="language-java"></code></pre>
+        
+        <!-- DEV -->
+        <script data-main="js/main" src="js/libs/require.js"></script>
+        <!-- PROD -->
+        <!-- <script data-main="js/app.min.js" src="js/require.js"></script> -->
+    </body>
+</html>
